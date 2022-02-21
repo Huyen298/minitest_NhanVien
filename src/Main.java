@@ -15,5 +15,7 @@ public class Main {
         employees= Method.addNewEmployee(employees,nv3);
         employees= Method.addNewEmployee(employees,nv4);
         Method.displayEmployee(employees);
+        Method.addNewEmployee(employees,Method.creatNewParttimeEmployee());
+
     }
 }
